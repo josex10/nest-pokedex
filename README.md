@@ -14,22 +14,36 @@
 # Ejecutar en Desarrollo
 
 1. Clonar Repo
+
 ```
 git clone 
 ```
+
 2. Ejecutar
 
 ```
   yarn install
 ```
+
 3. Tener el Nest CLI instalado
+
 ```
   npm i -g @nest/cli
 ```
-4. Levantar la base de datos 
+
+4. Levantar la base de datos
+
 ```
 docker-compose up -d
 ```
+
+5. Reconstruir la base de datos con el seed data
+
+```
+http://localhost:3000/api/v2/seed
+```
+
 ## Stack Usado
- * Mongo DB
- * Nest
+
+* Mongo DB
+* Nest
