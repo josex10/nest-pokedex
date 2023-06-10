@@ -36,8 +36,17 @@ git clone
 ```
 docker-compose up -d
 ```
+5. Clonar el archivo  __.env.template__ y renombrarla a __.env__
 
-5. Reconstruir la base de datos con el seed data
+6. Llenar las variables de entorno en el archivo __.env__
+
+7. Correr el proyecto en modo desarrollo
+
+```
+yarn start:dev
+```
+
+8. Reconstruir la base de datos con el seed data
 
 ```
 http://localhost:3000/api/v2/seed
